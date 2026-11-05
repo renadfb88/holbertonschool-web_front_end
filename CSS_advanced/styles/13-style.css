@@ -48,15 +48,15 @@ a[href] {
 	color: var(--text-color);    
 }
 
-a:visited {
+a[href]:visited {
     font-style: italic;
 }
 
-a:hover {
+a[href]:hover {
     text-decoration: underline;
 }
 
-a:active {
+a[href]:active {
     background-color: var(--color-light-grey);
 }
 
